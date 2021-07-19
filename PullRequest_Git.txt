@@ -1,0 +1,47 @@
+Git Hub Pull request process
+#Allows us to make a folder or directory
+mkdir ros_buildfarm
+#call already mader folder
+cd ros_buildfarm
+#
+pwd #present working directory
+#
+mkdir modifications
+#
+cd modifications
+#Commencing the pull request
+git init
+#git pull htps://github.com/... i.e "clone link"
+#
+
+#####
+git add readme.txt // didn't work
+#open dir
+ls #list dir
+#Open text document
+c:/windows/notepad readme
+//Edit the notepad file by adding the necessary suggestions, save and exit.
+
+#git push...
+git init
+#
+git status
+#
+git add .
+#
+git commit -m "changes made already"
+#
+git status //To verify
+#
+git remote add origin "git url link....git"
+#
+git remote -v //Means... merge (fetch/push)
+#
+git push -u origin master
+#
+
+
+
+
+ 
+
